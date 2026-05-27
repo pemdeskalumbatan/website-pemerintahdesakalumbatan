@@ -1,0 +1,176 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+
+  <div class="container">
+
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-3" href="#">
+
+      <!-- Logo Desa -->
+      <img src="logo.png"
+           alt="Logo Desa Kalumbatan"
+           width="55"
+           height="55"
+           class="bg-white rounded-circle p-1 shadow">
+
+      <!-- Nama Desa -->
+      <div>
+
+        <div style="font-size:18px;">
+          PEMERINTAH DESA
+        </div>
+
+        <small class="text-white">
+          KALUMBATAN
+        </small>
+
+      </div>
+
+    </a>
+
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#layanan">Layanan Publik</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#berita">Berita</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">Tentang</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+
+  <div class="container">
+
+    <h1>Selamat Datang di Desa Kalumbatan</h1>
+
+    <p class="lead mt-4">
+      Website Resmi Pemerintah Desa Kalumbatan
+    </p>
+
+    <a href="#layanan" class="btn btn-warning btn-lg mt-3">
+      Lihat Layanan
+    </a>
+
+  </div>
+
+</section>
+
+<!-- Tentang -->
+<section class="py-5 bg-light" id="tentang">
+
+  <div class="container">
+
+    <h2 class="text-center section-title">
+      Tentang Desa
+    </h2>
+
+    <div class="row justify-content-center">
+
+      <div class="col-md-8 text-center">
+
+        <p class="lead">
+          Website ini merupakan portal resmi Pemerintah Desa Kalumbatan
+          untuk memberikan informasi, pelayanan publik, berita,
+          dan kegiatan desa kepada masyarakat secara online.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Contact -->
+<section class="py-5" id="contact">
+
+  <div class="container">
+
+    <h2 class="text-center section-title">
+      Contact
+    </h2>
+
+    <div class="row justify-content-center">
+
+      <div class="col-md-6">
+
+        <div class="card shadow border-0">
+
+          <div class="card-body p-4">
+
+            <p>
+              <i class="bi bi-geo-alt-fill text-primary"></i>
+              Desa Kalumbatan
+            </p>
+
+            <p>
+              <i class="bi bi-envelope-fill text-primary"></i>
+              desakalumbatan@gmail.com
+            </p>
+
+            <p>
+              <i class="bi bi-telephone-fill text-primary"></i>
+              0812-3456-7890
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+
+  <div class="container">
+
+    <p class="mb-0">
+      © 2026 Pemerintah Desa Kalumbatan | All Rights Reserved
+    </p>
+
+  </div>
+
+</footer>
